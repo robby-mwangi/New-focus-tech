@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Focus Technologies</title>
+  <link rel="shortcut icon" href="images/Favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // WhatsApp order function
+    function orderPhone(model, type, price) {
+      const phone = "254712326782"; // replace with your WhatsApp number, no "+"
+      const message = `Hello, I'm interested in ordering:\n📱 Model: ${model}\n💵 Type: ${type}\n💰 Price: ${price}`;
+      const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+      window.open(url, "_blank");
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">📱 New Focus Technologies</div>
+    <nav>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Quality is Our Priority</h1>
+      <p>Ex-UK | Refurbished | Brand New iPhones</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products" id="products">
+    <h2>Our Products</h2>
+    <div class="grid">
+
+      <!-- iPhone XS Max -->
+      <div class="card">
+        <img src="images/iphone xs max.avif" alt="iPhone XS Max">
+        <h3>iPhone XS Max</h3>
+        <ul class="prices">
+          <li>Ex-UK 64GB – KSh 37,000 <button onclick="orderPhone('iPhone XS Max','Ex-UK 64GB','KSh 37,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 40,000 <button onclick="orderPhone('iPhone XS Max','Ex-UK 256GB','KSh 40,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 11 -->
+      <div class="card">
+        <img src="images/iPhone 11.avif" alt="iPhone 11">
+        <h3>iPhone 11</h3>
+        <ul class="prices">
+          <li>Ex-UK 64GB – KSh 34,000 <button onclick="orderPhone('iPhone 11','Ex-UK 64GB','KSh 34,000')">Order</button></li>
+          <li>Ex-UK 128GB – KSh 36,000 <button onclick="orderPhone('iPhone 11','Ex-UK 128GB','KSh 36,000')">Order</button></li>
+          <li>Refurbished 128GB – KSh 38,000 <button onclick="orderPhone('iPhone 11','Refurbished 128GB','KSh 38,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 11 Pro -->
+      <div class="card">
+        <img src="images/iphone 11 pro.avif" alt="iPhone 11 Pro">
+        <h3>iPhone 11 Pro</h3>
+        <ul class="prices">
+          <li>Ex-UK 64GB – KSh 40,000 <button onclick="orderPhone('iPhone 11 Pro','Ex-UK 64GB','KSh 40,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 44,000 <button onclick="orderPhone('iPhone 11 Pro','Ex-UK 256GB','KSh 44,000')">Order</button></li>
+          <li>Ex-UK 512GB – KSh 48,000 <button onclick="orderPhone('iPhone 11 Pro','Ex-UK 512GB','KSh 48,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 50,000 <button onclick="orderPhone('iPhone 11 Pro','Refurbished 256GB','KSh 50,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 11 Pro Max -->
+      <div class="card">
+        <img src="images/iPhone 11 Pro Max.avif" alt="iPhone 11 Pro Max">
+        <h3>iPhone 11 Pro Max</h3>
+        <ul class="prices">
+          <li>Ex-UK 64GB – KSh 45,000 <button onclick="orderPhone('iPhone 11 Pro Max','Ex-UK 64GB','KSh 45,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 50,000 <button onclick="orderPhone('iPhone 11 Pro Max','Ex-UK 256GB','KSh 50,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 12 -->
+      <div class="card">
+        <img src="images/iPhone 12.avif" alt="iPhone 12">
+        <h3>iPhone 12</h3>
+        <ul class="prices">
+          <li>Ex-UK 64GB – KSh 39,000 <button onclick="orderPhone('iPhone 12','Ex-UK 64GB','KSh 39,000')">Order</button></li>
+          <li>Ex-UK 128GB – KSh 44,000 <button onclick="orderPhone('iPhone 12','Ex-UK 128GB','KSh 44,000')">Order</button></li>
+          <li>Refurbished 128GB – KSh 46,000 <button onclick="orderPhone('iPhone 12','Refurbished 128GB','KSh 46,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 12 Pro -->
+      <div class="card">
+        <img src="images/iPhone 12 Pro.avif" alt="iPhone 12 Pro">
+        <h3>iPhone 12 Pro</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 50,000 <button onclick="orderPhone('iPhone 12 Pro','Ex-UK 128GB','KSh 50,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 53,000 <button onclick="orderPhone('iPhone 12 Pro','Ex-UK 256GB','KSh 53,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 55,000 <button onclick="orderPhone('iPhone 12 Pro','Refurbished 256GB','KSh 55,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 12 Pro Max -->
+      <div class="card">
+        <img src="images/iPhone 12 Pro Max.avif" alt="iPhone 12 Pro Max">
+        <h3>iPhone 12 Pro Max</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 62,000 <button onclick="orderPhone('iPhone 12 Pro Max','Ex-UK 128GB','KSh 62,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 66,000 <button onclick="orderPhone('iPhone 12 Pro Max','Ex-UK 256GB','KSh 66,000')">Order</button></li>
+          <li>Ex-UK 512GB – KSh 75,000 <button onclick="orderPhone('iPhone 12 Pro Max','Ex-UK 512GB','KSh 75,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 62,000 <button onclick="orderPhone('iPhone 12 Pro Max','Refurbished 256GB','KSh 62,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 13 -->
+      <div class="card">
+        <img src="images/iPhone 13.avif" alt="iPhone 13">
+        <h3>iPhone 13</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 48,000 <button onclick="orderPhone('iPhone 13','Ex-UK 128GB','KSh 48,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 52,000 <button onclick="orderPhone('iPhone 13','Ex-UK 256GB','KSh 52,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 57,000 <button onclick="orderPhone('iPhone 13','Refurbished 256GB','KSh 57,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 13 Pro -->
+      <div class="card">
+        <img src="images/iPhone 13 Pro.avif" alt="iPhone 13 Pro">
+        <h3>iPhone 13 Pro</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 62,000 <button onclick="orderPhone('iPhone 13 Pro','Ex-UK 128GB','KSh 62,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 68,000 <button onclick="orderPhone('iPhone 13 Pro','Ex-UK 256GB','KSh 68,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 70,000 <button onclick="orderPhone('iPhone 13 Pro','Refurbished 256GB','KSh 70,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 13 Pro Max -->
+      <div class="card">
+        <img src="images/iPhone 13 Pro Max.avif" alt="iPhone 13 Pro Max">
+        <h3>iPhone 13 Pro Max</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 70,000 <button onclick="orderPhone('iPhone 13 Pro Max','Ex-UK 128GB','KSh 70,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 76,000 <button onclick="orderPhone('iPhone 13 Pro Max','Ex-UK 256GB','KSh 76,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 73,000 <button onclick="orderPhone('iPhone 13 Pro Max','Refurbished 256GB','KSh 73,000')">Order</button></li>
+          <li>Refurbished 512GB – KSh 78,000 <button onclick="orderPhone('iPhone 13 Pro Max','Refurbished 512GB','KSh 78,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 14 -->
+      <div class="card">
+        <img src="images/iphone 14.avif" alt="iPhone 14">
+        <h3>iPhone 14</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 60,000 <button onclick="orderPhone('iPhone 14','Ex-UK 128GB','KSh 60,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 65,000 <button onclick="orderPhone('iPhone 14','Ex-UK 256GB','KSh 65,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 14 Pro -->
+      <div class="card">
+        <img src="images/iphone 14 pro.avif" alt="iPhone 14 Pro">
+        <h3>iPhone 14 Pro</h3>
+        <ul class="prices">
+          <li>Ex-UK 256GB – KSh 85,000 <button onclick="orderPhone('iPhone 14 Pro','Ex-UK 256GB','KSh 85,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 80,000 <button onclick="orderPhone('iPhone 14 Pro','Refurbished 256GB','KSh 80,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 14 Pro Max -->
+      <div class="card">
+        <img src="images/iphone 14 pro max.avif" alt="iPhone 14 Pro Max">
+        <h3>iPhone 14 Pro Max</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 92,000 <button onclick="orderPhone('iPhone 14 Pro Max','Ex-UK 128GB','KSh 92,000')">Order</button></li>
+          <li>Ex-UK 256GB – KSh 95,000 <button onclick="orderPhone('iPhone 14 Pro Max','Ex-UK 256GB','KSh 95,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 90,000 <button onclick="orderPhone('iPhone 14 Pro Max','Refurbished 256GB','KSh 90,000')">Order</button></li>
+          <li>Refurbished 512GB – KSh 94,000 <button onclick="orderPhone('iPhone 14 Pro Max','Refurbished 512GB','KSh 94,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 15 -->
+      <div class="card">
+        <img src="images/iPhone 15.avif" alt="iPhone 15">
+        <h3>iPhone 15</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 80,000 <button onclick="orderPhone('iPhone 15','Ex-UK 128GB','KSh 80,000')">Order</button></li>
+          <li>Brand New 128GB – KSh 98,000 <button onclick="orderPhone('iPhone 15','Brand New 128GB','KSh 98,000')">Order</button></li>
+          <li>Brand New 256GB – KSh 115,000 <button onclick="orderPhone('iPhone 15','Brand New 256GB','KSh 115,000')">Order</button></li>
+          <li>Refurbished 128GB – KSh 83,000 <button onclick="orderPhone('iPhone 15','Refurbished 128GB','KSh 83,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 15 Plus -->
+      <div class="card">
+        <img src="images/iphone 15 plus.avif" alt="iPhone 15 Plus">
+        <h3>iPhone 15 Plus</h3>
+        <ul class="prices">
+          <li>Brand New 128GB – KSh 115,000 <button onclick="orderPhone('iPhone 15 Plus','Brand New 128GB','KSh 115,000')">Order</button></li>
+          <li>Brand New 256GB – KSh 130,000 <button onclick="orderPhone('iPhone 15 Plus','Brand New 256GB','KSh 130,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 15 Pro -->
+      <div class="card">
+        <img src="images/iphone 15 pro.avif" alt="iPhone 15 Pro">
+        <h3>iPhone 15 Pro</h3>
+        <ul class="prices">
+          <li>Brand New 128GB – KSh 135,000 <button onclick="orderPhone('iPhone 15 Pro','Brand New 128GB','KSh 135,000')">Order</button></li>
+          <li>Brand New 256GB – KSh 150,000 <button onclick="orderPhone('iPhone 15 Pro','Brand New 256GB','KSh 150,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 105,000 <button onclick="orderPhone('iPhone 15 Pro','Refurbished 256GB','KSh 105,000')">Order</button></li>
+        </ul>
+      </div>
+<!-- iPhone 15 Pro Max -->
+<div class="card">
+  <img src="images/iphone 15 pro max.avif" alt="iPhone 15 Pro Max">
+  <h3>iPhone 15 Pro Max</h3>
+  <ul class="prices">
+    <li>Ex-UK 256GB – KSh 112,000 <button onclick="orderPhone('iPhone 15 Pro Max','Ex-UK 256GB','KSh 112,000')">Order</button></li>
+    <li>Ex-UK 512GB – KSh 125,000 <button onclick="orderPhone('iPhone 15 Pro Max','Ex-UK 512GB','KSh 125,000')">Order</button></li>
+    <li>Brand New 256GB – KSh 160,000 <button onclick="orderPhone('iPhone 15 Pro Max','Brand New 256GB','KSh 160,000')">Order</button></li>
+    <li>Brand New 1TB – KSh 170,000 <button onclick="orderPhone('iPhone 15 Pro Max','Brand New 1TB','KSh 170,000')">Order</button></li>
+    <li>Refurbished 256GB – KSh 115,000 <button onclick="orderPhone('iPhone 15 Pro Max','Refurbished 256GB','KSh 115,000')">Order</button></li>
+    <li>Refurbished 512GB – KSh 120,000 <button onclick="orderPhone('iPhone 15 Pro Max','Refurbished 512GB','KSh 120,000')">Order</button></li>
+  </ul>
+</div>
+
+
+      <!-- iPhone 16 -->
+      <div class="card">
+        <img src="images/iphone 16.avif" alt="iPhone 16">
+        <h3>iPhone 16</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 110,000 <button onclick="orderPhone('iPhone 16','Ex-UK 128GB','KSh 110,000')">Order</button></li>
+          <li>Refurbished 128GB – KSh 95,000 <button onclick="orderPhone('iPhone 16','Refurbished 128GB','KSh 95,000')">Order</button></li>
+          <li>Brand New 128GB – KSh 135,000 <button onclick="orderPhone('iPhone 16','Brand New 128GB','KSh 135,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 16 Plus -->
+      <div class="card">
+        <img src="images/iphone 16 plus.avif" alt="iPhone 16 Plus">
+        <h3>iPhone 16 Plus</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 125,000 <button onclick="orderPhone('iPhone 16 Plus','Ex-UK 128GB','KSh 125,000')">Order</button></li>
+          <li>Refurbished 128GB – KSh 110,000 <button onclick="orderPhone('iPhone 16 Plus','Refurbished 128GB','KSh 110,000')">Order</button></li>
+          <li>Brand New 128GB – KSh 150,000 <button onclick="orderPhone('iPhone 16 Plus','Brand New 128GB','KSh 150,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 16 Pro -->
+      <div class="card">
+        <img src="images/iphone 16 pro.avif" alt="iPhone 16 Pro">
+        <h3>iPhone 16 Pro</h3>
+        <ul class="prices">
+          <li>Ex-UK 128GB – KSh 145,000 <button onclick="orderPhone('iPhone 16 Pro','Ex-UK 128GB','KSh 145,000')">Order</button></li>
+          <li>Refurbished 128GB – KSh 130,000 <button onclick="orderPhone('iPhone 16 Pro','Refurbished 128GB','KSh 130,000')">Order</button></li>
+          <li>Brand New 128GB – KSh 170,000 <button onclick="orderPhone('iPhone 16 Pro','Brand New 128GB','KSh 170,000')">Order</button></li>
+        </ul>
+      </div>
+
+      <!-- iPhone 16 Pro Max -->
+      <div class="card">
+        <img src="images/iphone 16 pro max.avif" alt="iPhone 16 Pro Max">
+        <h3>iPhone 16 Pro Max</h3>
+        <ul class="prices">
+          <li>Ex-UK 256GB – KSh 160,000 <button onclick="orderPhone('iPhone 16 Pro Max','Ex-UK 256GB','KSh 160,000')">Order</button></li>
+          <li>Refurbished 256GB – KSh 145,000 <button onclick="orderPhone('iPhone 16 Pro Max','Refurbished 256GB','KSh 145,000')">Order</button></li>
+          <li>Brand New 256GB – KSh 190,000 <button onclick="orderPhone('iPhone 16 Pro Max','Brand New 256GB','KSh 190,000')">Order</button></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+        <!-- Samsung Phones -->
+<section class="products" id="samsung">
+  <h2>Samsung Phones (East Africa Warranty)</h2>
+  <div class="grid">
+
+    <!-- Samsung A56 -->
+    <div class="card">
+      <img src="./images/Samsung A56.jpg" alt="Samsung A56">
+      <h3>Samsung A56</h3>
+      <ul class="prices">
+        <li>128GB / 8GB – KSh 40,000 
+          <button onclick="orderPhone('Samsung A56','128GB/8GB','KSh 40,000')">Order</button>
+        </li>
+        <li>256GB / 8GB – KSh 50,000 
+          <button onclick="orderPhone('Samsung A56','256GB/8GB','KSh 50,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Samsung S24 Ultra -->
+    <div class="card">
+      <img src="./images/Samsung S24 Ultra.jpg" alt="Samsung S24 Ultra">
+      <h3>Samsung S24 Ultra</h3>
+      <ul class="prices">
+        <li>256GB / 12GB – KSh 115,000 
+          <button onclick="orderPhone('Samsung S24 Ultra','256GB/12GB','KSh 115,000')">Order</button>
+        </li>
+        <li>512GB / 12GB – KSh 125,000 
+          <button onclick="orderPhone('Samsung S24 Ultra','512GB/12GB','KSh 125,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Samsung S25 FE -->
+    <div class="card">
+      <img src="./images/Samsung S25 FE.jpg" alt="Samsung S25 FE">
+      <h3>Samsung S25 FE</h3>
+      <ul class="prices">
+        <li>256GB / 8GB – KSh 90,000 
+          <button onclick="orderPhone('Samsung S25 FE','256GB/8GB','KSh 90,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Samsung S25 -->
+    <div class="card">
+      <img src="./images/Samsung S25.jpg" alt="Samsung S25">
+      <h3>Samsung S25</h3>
+      <ul class="prices">
+        <li>256GB / 12GB – KSh 100,000 
+          <button onclick="orderPhone('Samsung S25','256GB/12GB','KSh 100,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Samsung S25 Plus -->
+    <div class="card">
+      <img src="./images/Samsung S25 Plus.jpg" alt="Samsung S25 Plus">
+      <h3>Samsung S25 Plus</h3>
+      <ul class="prices">
+        <li>512GB / 12GB – KSh 120,000 
+          <button onclick="orderPhone('Samsung S25 Plus','512GB/12GB','KSh 120,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Samsung S25 Ultra -->
+    <div class="card">
+      <img src="./images/Samsung S25 Ultra.jpg" alt="Samsung S25 Ultra">
+      <h3>Samsung S25 Ultra</h3>
+      <ul class="prices">
+        <li>256GB / 12GB – KSh 128,000 
+          <button onclick="orderPhone('Samsung S25 Ultra','256GB/12GB','KSh 128,000')">Order</button>
+        </li>
+        <li>512GB / 12GB – KSh 140,000 
+          <button onclick="orderPhone('Samsung S25 Ultra','512GB/12GB','KSh 140,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Samsung Z Flip 7 FE -->
+    <div class="card">
+      <img src="./images/Samsung Z Flip 7 FE.jpg" alt="Samsung Z Flip 7 FE">
+      <h3>Samsung Z Flip 7 FE</h3>
+      <ul class="prices">
+        <li>128GB / 8GB – KSh 105,000 
+          <button onclick="orderPhone('Samsung Z Flip 7 FE','128GB/8GB','KSh 105,000')">Order</button>
+        </li>
+        <li>256GB / 8GB – KSh 110,000 
+          <button onclick="orderPhone('Samsung Z Flip 7 FE','256GB/8GB','KSh 110,000')">Order</button>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide high-quality Ex-UK, Refurbished, and Brand New iPhones at unbeatable prices.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📞 Call/WhatsApp: <a href="https://wa.me/254712326782" target="_blank">+254 712 326 782</a></p>
+    <p>📍 Location: Nairobi, Kenya</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 New Focus Technologies. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // WhatsApp order function
+    function orderPhone(model, condition, price) {
+      const phoneNumber = "254712326782"; // Your WhatsApp number
+      const message = `Hello, I'm interested in ordering the ${model} (${condition}) priced at ${price}.`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(url, "_blank");
+    }
+
+    // Mobile menu toggle
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
+
+</body>
+</html>
